@@ -1,0 +1,39 @@
+:root {
+    --black: #000000;
+    --red: #FF002D;
+    --blue: #464EFF;
+    --pink: #FF00B8;
+    --green: #02ff40;
+    --yelllow: #FFD409;
+    
+
+}
+
+body {
+    background-color: var(--black);
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: var(--red);
+
+}
+
+h2 {
+    color: var(--blue);
+}
+
+h3 {
+    color: var(--pink);
+}
+
+p {
+    color: var(--green);
+}
+
+button {
+    padding: 1rem;
+    margin: auto;
+    background-color: var(--yelllow);
+}
