@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering CounterApp should match with the snapshot 1`] = `
+<div>
+  <h2>
+    This is a Counter App
+  </h2>
+  <h4>
+    Which counts +1 every time it's clicked
+  </h4>
+  <h3
+    data-testid="IDcounterApp"
+  >
+    0
+  </h3>
+  <button>
+    -1
+  </button>
+  <button>
+    Reset
+  </button>
+  <button>
+    +1
+  </button>
+</div>
+`;
