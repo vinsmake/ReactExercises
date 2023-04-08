@@ -10,16 +10,24 @@ exports[`Testing CounterApp should match with the snapshot 1`] = `
   </h4>
   <h3
     data-testid="IDcounterApp"
+    id="IDcounterApp"
   >
     0
   </h3>
-  <button>
+  <button
+    data-testid="test-btn--1"
+  >
     -1
   </button>
-  <button>
+  <button
+    aria-label="btn-reset"
+    data-testid="test-btn-reset"
+  >
     Reset
   </button>
-  <button>
+  <button
+    data-testid="test-btn-+1"
+  >
     +1
   </button>
 </div>

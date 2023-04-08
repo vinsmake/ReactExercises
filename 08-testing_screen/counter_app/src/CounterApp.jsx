@@ -29,12 +29,12 @@ export function CounterApp ({defaultValue}) {
     <>
         <h2>This is a Counter App</h2>
         <h4>Which counts +1 every time it's clicked</h4>
-        <h3 data-testid="IDcounterApp">{counting}</h3>
-        <button onClick={substractClick}>
+        <h3 data-testid="IDcounterApp" id="IDcounterApp">{counting}</h3>
+        <button data-testid="test-btn--1" onClick={substractClick}>
             -1</button>
-        <button onClick={resetClick}>
+        <button data-testid="test-btn-reset" aria-label='btn-reset' onClick={resetClick}>
             Reset</button>
-        <button onClick={plusClick}>
+        <button data-testid="test-btn-+1" onClick={plusClick}>
             +1</button>
     </>
     );
